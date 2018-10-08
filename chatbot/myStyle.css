@@ -1,0 +1,43 @@
+@font-face {
+    font-family: bitFont;
+    src: url(bitFont.ttf);
+}
+
+body{
+    background-color: #000;
+    color:white;
+}
+
+.userMessageBox{
+    background-color: white;
+    color: black;
+    border: 3px solid white;
+    font-size: 22px;
+    border-radius: 15px;
+    padding: 16px 28px;
+    font-family: 'Prompt', sans-serif;
+    display: inline-block;
+    width: auto;
+    margin-left: 250px;
+}
+
+.botMessageBox{
+    background-color: black;
+    color: rgb(43, 254, 255);
+    border: 3px solid rgb(43, 254, 255);
+    color: #FFF;
+    border: 3px solid #FFF;
+    background-color: blue;
+    font-size: 24px;
+    border-radius: 20px;
+    padding: 14px 28px;
+    font-family: 'bitFont';
+    display: inline-block;
+    width: auto;
+    margin-right: 250px;
+}
+
+.timeBox{
+    display: inline-block;
+    font-style: italic;
+}
